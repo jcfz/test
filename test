@@ -1,0 +1,18 @@
+#cfz 1-hi币 2-hi点
+        order_id=category+object_id+datetime.now.strftime('%Y%m%d%H%M%S')
+        flag=cls.connect_platform_api(user,order_id,int(score),2,desc)
+        if not flag:
+            print '失败'
+        else:
+            print '成功'
+
+
+            @classmethod
+                def connect_platform_api(cls, user, order_id, score, category, desc):
+                    #Hi币兑换Hi点
+                    cmp_value='Hi币兑换Hi点'
+                    if desc==cmp_value:
+                        print ''
+                    else:
+                        print ''
+                    return True
